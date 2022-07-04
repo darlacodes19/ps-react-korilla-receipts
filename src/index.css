@@ -1,12 +1,33 @@
 * {
   box-sizing: border-box;
 }
-.record {
+
+h1{
+  text-align: center;
+ 
+}
+
+.receipt {
+  border: 2px solid black;
+  width: 250px;
+  height: 360px;
+  margin-top: 20px;
+  padding: 20px;
+  margin: 10px;
+ 
+ 
+}
+
+.receipt:hover {
+  background-color: aqua;
+  border:  2px solid yellow;
+}
+/* .record {
   border: 2px solid orangered;
   width: 250px;
   height: 350px;
-  /* text-align: center; */
-  margin-top: 20px;
+  text-align: center; 
+   margin-top: 20px;
   padding: 20px;
   
 }
@@ -15,10 +36,22 @@
   display: flex;
   justify-content: space-evenly;
 
-}
+} */
 
 span { 
   color: purple;
   font-weight: bold;
 
+} 
+
+.border {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.false {
+  display: none;
+  visibility: hidden;
 }

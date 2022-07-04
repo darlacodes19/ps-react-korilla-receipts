@@ -1,18 +1,25 @@
 
-import { useState } from 'react';
 import './index.css'
-import Records from './Records';
+import Main from './components/Main';
+import receipts from './Data'
+
 
 function App() {
-
+ 
+  
   return (
-
+  
     <div className='App'> 
-    <Records /> 
+      <h1> Korilla Receipts </h1>
+     
+        <Main receipts = {receipts} /> 
+      
+
     </div>
   )
-
 }
+
+
 
 
 export default App;
